@@ -3,6 +3,8 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:online_clinic/core/theming/styles.dart';
 import 'package:online_clinic/core/widgets/app_text_button.dart';
 import 'package:online_clinic/core/widgets/app_text_form_field.dart';
+import 'package:online_clinic/features/login/widgets/already_have_account_text.dart';
+import 'package:online_clinic/features/login/widgets/terms_and_confitions_text.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
@@ -68,12 +70,15 @@ class _LoginScreenState extends State<LoginScreen> {
                           style: TextStyles.font14Blue400Weight,
                         ),
                       ),
-                      SizedBox(height: 40.h),
+                      SizedBox(height: 34.h),
                       AppTextButton(
                         onpressed: () {},
                         text: 'Login',
                       ),
-                      /////// rich text, rich span ///////
+                      SizedBox(height: 16.h),
+                      const TermsAndConditionsText(),
+                      SizedBox(height: 45.h),
+                      const DontHaveAccountText(),
                     ],
                   ),
                 )

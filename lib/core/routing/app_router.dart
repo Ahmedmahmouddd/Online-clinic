@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:online_clinic/core/routing/routs.dart';
-import 'package:online_clinic/features/login/ui/widgets/login_screen.dart';
+import 'package:online_clinic/features/login/login_screen.dart';
 import 'package:online_clinic/features/onboarding/onboarding_screen.dart';
 
 class AppRouter {

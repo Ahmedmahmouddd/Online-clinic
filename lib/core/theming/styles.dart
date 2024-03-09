@@ -21,16 +21,34 @@ class TextStyles {
     fontWeight: FontWeight.w400,
   );
 
+  static TextStyle font14Grey600Weight = TextStyle(
+    color: ColorsManager.Grey,
+    fontSize: 14.sp,
+    fontWeight: FontWeight.w600,
+  );
+
   static TextStyle font14DarkBlue400Weight = TextStyle(
     color: ColorsManager.Darkblue,
     fontSize: 14.sp,
     fontWeight: FontWeight.w400,
   );
 
+  static TextStyle font14DarkBlue600Weight = TextStyle(
+    color: ColorsManager.Darkblue,
+    fontSize: 14.sp,
+    fontWeight: FontWeight.w600,
+  );
+
   static TextStyle font14LightGrey400Weight = TextStyle(
     color: ColorsManager.LightGray,
     fontSize: 14.sp,
     fontWeight: FontWeight.w400,
+  );
+
+  static TextStyle font14LightGrey600Weight = TextStyle(
+    color: ColorsManager.LightGray,
+    fontSize: 14.sp,
+    fontWeight: FontWeight.w600,
   );
 
   static TextStyle font16White600Weight = TextStyle(
@@ -49,5 +67,11 @@ class TextStyles {
     color: ColorsManager.Blue,
     fontSize: 14.sp,
     fontWeight: FontWeight.w400,
+  );
+
+  static TextStyle font14Blue600Weight = TextStyle(
+    color: ColorsManager.Blue,
+    fontSize: 14.sp,
+    fontWeight: FontWeight.w600,
   );
 }
